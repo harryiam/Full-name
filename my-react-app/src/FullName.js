@@ -9,8 +9,6 @@ function UserForm({ onFullNameChange }) {
     if (firstName.trim() && lastName.trim()) {
       const fullNameValue = `${firstName} ${lastName}`;
       onFullNameChange(fullNameValue);
-      setFirstName('');
-      setLastName('');
     }
   };
 
