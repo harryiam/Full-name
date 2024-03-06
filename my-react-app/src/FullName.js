@@ -20,7 +20,7 @@ function UserForm() {
       
       <form onSubmit={handleSubmit}>
         <div>
-          <label>First:</label>
+          <label>First Name:</label>
           <input
             type="text"
             value={firstName}
@@ -29,7 +29,7 @@ function UserForm() {
           />
         </div>
         <div>
-          <label>Last:</label>
+          <label>Last Name:</label>
           <input
             type="text"
             value={lastName}
